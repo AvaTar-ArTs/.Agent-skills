@@ -102,10 +102,11 @@ The core principles of an ecosystem audit—inventory, analysis, risk identifica
 
 ## References
 - Targets list: `references/targets.md`
+- Enriched audit-data index: `references/workspace-ecosystem-audit-data-index.csv`
+- Audit-data docs inventory: `references/workspace-ecosystem-audit-data-docs.csv`
 - Use `rg --files` + `rg -n` for fast content search.
 - For large JSONL (histories), sample with `python - <<'PY' ...` to avoid loading whole files.
 
 
 ## Validation
 - Optional: `python scripts/inventory.py --roots ... --out /tmp/inventory.json --max-hash-bytes 0 --max-preview-bytes 0` for fastest structural map.
-
