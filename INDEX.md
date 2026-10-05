@@ -1,7 +1,7 @@
 # ~/.agents — Master Index
 
 > Generated 2026-06-14. This is the **Codex/agents runtime surface** (descriptions reference Codex/Qwen),
-> a sibling to `~/.claude`. Three top-level areas: **agents/**, **skills/**, **plugins/**.
+> a sibling to `~/.claude`. Two top-level areas: **agents/** and **skills/**.
 
 ## At a glance
 
@@ -10,7 +10,6 @@
 | Skill directories (top-level) | 96 | 72 have a root `SKILL.md`; 24 are category folders |
 | **Total `SKILL.md` files** | **173** | 72 flat + 101 nested in category folders |
 | Agent definitions (`.md`) | 42 | + 3 `.toml`, plus `openai.yaml`, `cleanup-manifest.csv` |
-| Plugins | 1 | `plugins/marketplace.json` |
 | Total files | 914 | 615 md, 66 py, 39 xsd, 17 json, 13 sty/tex (LaTeX), … |
 | Disk | ~15 MB | almost all under `skills/` |
 
@@ -85,11 +84,6 @@ Fresh-context specialists. **Note:** most descriptions are auto-generated boiler
 
 **Category folders that are stubs** (only a `DESCRIPTION.md`, no skills yet): `diagramming`, `domain`, `gifs`, `inference-sh`.
 **`dist/`** holds one packaged artifact: `frontend-ux-modernizer.skill`.
-
----
-
-## 3. Plugins (`plugins/`)
-- `marketplace.json` — single plugin marketplace manifest.
 
 ---
 

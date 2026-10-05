@@ -11,7 +11,6 @@ changelog beside the CSV.
 
 - `agents/` - Markdown and TOML agent/persona definitions.
 - `skills/` - Skill directories and nested skill libraries.
-- `plugins/` - Plugin source/reference material and marketplace metadata.
 - `deep-research/` - Research-oriented skill material.
 - `scripts/` - Local inspection and catalog tooling for this workspace.
 - `tmp-csv/` - Local staged CSV outputs, ignored by Git.
